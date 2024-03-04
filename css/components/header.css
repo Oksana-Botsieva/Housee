@@ -23,6 +23,7 @@
 
 .header__left-name {
   color: var(--card-text-color);
+  font-weight: 700;
 }
 
 .header__right {
