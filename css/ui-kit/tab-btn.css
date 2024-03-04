@@ -1,0 +1,32 @@
+.tab-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  height: 43px;
+  font-family: Raleway,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  color: var(--text-color);
+  border-radius: 20px;
+  border: none;
+  background-color: var(--focus-color);
+}
+
+.tab-btn:focus {
+  outline: 2px solid var(--button-border-color);
+}
+
+@media (hover:hover) {
+  .tab-btn:hover:not(:focus) {
+    outline: none;
+    background-color: var(--hover-color);
+    color: var(--background-color);
+  }
+}
+
+.tab-btn:active {
+  color: #FFF;
+  background-color: var(--active-color);
+}
