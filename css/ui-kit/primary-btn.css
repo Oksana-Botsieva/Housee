@@ -1,0 +1,21 @@
+.primary_btn {
+  outline: 1px solid var(--button-border-color);
+  background-color: var(--background-color);
+  color: var(--button-color);
+}
+.primary_btn:focus {
+  background-color: var(--focus-color);
+}
+
+@media (hover: hover) {
+  .primary_btn:hover:not(:focus) {
+    background-color: var(--hover-color);
+    color: var(--background-color);
+  }
+}
+
+.primary_btn:active {
+  background-color: var(--active-color);
+  color: #FFF;
+  outline: none;
+}

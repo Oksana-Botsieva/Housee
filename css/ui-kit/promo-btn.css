@@ -1,0 +1,21 @@
+.promo_btn {
+  background-color: var(--default--promo-btn-color);
+  color: var(--text-color);
+  outline: none;
+}
+
+.promo_btn:focus {
+  background-color: var(--hover-promo-btn);
+  outline: 1px solid var(--focus-promo-btn-border-color);
+}
+
+@media (hover: hover) {
+  .promo_btn:hover:not(:focus) {
+    background-color: var(--hover-promo-btn);
+  }
+}
+
+.promo_btn:active {
+  background-color: var(--active-promo-btn-color);
+  outline: none;
+}
