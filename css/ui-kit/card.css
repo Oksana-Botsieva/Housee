@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 730px;
+  background-color: var(--card-color);
+  padding: 20px 20px 30px 20px;
+  justify-content: space-between;
+}
+
+.card_image {
+  max-width: 310px;
+  max-height: 422px;
+  padding-bottom: 20px;
+}
+
+.card_author {
+  line-height: 21.13px;
+  color: var(--light-text-color);
+  padding-bottom: 10px;
+}
+
+.card_title {
+  font-size: 30px;
+  padding-bottom: 8px;
+}
+
+.card_description {
+  line-height: 21.13px;
+  padding-bottom: 30px;
+}
+
+.card_price {
+  font-size: 24px;
+  line-height: 28.18px;
+  padding-bottom: 20px;
+  color: var(--card-text-color);
+}
+
+.card_btn {
+  width: 310px;
+  height: 65px;
+  color: var(--card-text-color);
+  background-color: var(--card-color);
+  outline: 1px solid var(--card-text-color);
+  padding-bottom: 20px;
+}
