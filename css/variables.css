@@ -1,0 +1,22 @@
+:root {
+  --background-color: #F4F6F5;
+  --card-color: #E1EDE6;
+  --button-border-color: #598D66;
+  --button-color: #598D66;
+  --hover-color: #598D66;
+  --focus-color: #D4E8D9;
+  --active-color:#376B44;
+
+  --hover-promo-btn: #FAEB97;
+  --focus-promo-btn-border-color: #A38314;
+  --active-promo-mtn-color: #D9B949;
+
+
+  --text-color: #2C2D35;
+  --hover-text-color: #598D66;
+  --avtive-text-color: #376B44;
+  --card-text-color:  #598D66;
+  --light-text-color: #86928B;
+  --promo-text-color: #F4F6F5;
+
+}

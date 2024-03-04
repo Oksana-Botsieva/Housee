@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Raleway;
+  src: local(Raleway),
+  url("../assets/fonts/Raleway-VariableFont_wght.woff2"),
+  url("../assets/fonts/Raleway-VariableFont_wght.woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap
+}
