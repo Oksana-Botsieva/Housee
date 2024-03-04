@@ -13,6 +13,8 @@
 @import "./ui-kit/tab-btn.css";
 @import "./ui-kit/card.css";
 
+@import "./components/header.css";
+
 
 .container {
   width: 100%;
@@ -21,4 +23,8 @@
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
+}
+
+body {
+  background-color: var(--background-color);
 }

@@ -1,0 +1,40 @@
+/* .header__right-cart {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto
+} */
+.header {
+  background-color: var(--card-color);
+  height: 100px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.header__left-name {
+  color: var(--card-text-color);
+}
+
+.header__right {
+  display: flex;
+  column-gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__main__menu {
+  display: flex;
+  column-gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
