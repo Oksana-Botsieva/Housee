@@ -1,0 +1,21 @@
+.text-link {
+  font-size: 20px;
+  line-height: 23.48px;
+}
+
+.text-link:focus {
+  color: var(--text-color);
+  background: var(--focus-color);
+  padding: 0 5px;
+}
+
+@media (hover: hover) {
+  .text-link:hover:not(:focus) {
+    color: var(--hover-color);
+  }
+}
+
+.text-link:active {
+  color: var(--active-color);
+}
+
