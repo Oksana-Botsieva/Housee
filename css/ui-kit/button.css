@@ -1,0 +1,59 @@
+.button {
+  font-family: Raleway,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  width: 227px;
+  height: 65px;
+  align-items: center;
+  border: none;
+  padding: 21px 60px;
+  cursor: pointer;
+}
+
+.primary_btn {
+  outline: 1px solid var(--button-border-color);
+  background-color: var(--background-color);
+  color: var(--button-color);
+}
+
+.promo_btn {
+  background-color: var(--default--promo-btn-color);
+  color: var(--text-color);
+  outline: none;
+}
+
+.promo_btn:focus {
+  background-color: var(--hover-promo-btn);
+  outline: 1px solid var(--focus-promo-btn-border-color);
+}
+
+@media (hover: hover) {
+  .promo_btn:hover:not(:focus) {
+    background-color: var(--hover-promo-btn);
+  }
+}
+
+.promo_btn:active {
+  background-color: var(--active-promo-btn-color);
+  outline: none;
+}
+.primary_btn:focus {
+background-color: var(--focus-color);
+}
+
+@media (hover: hover) {
+  .primary_btn:hover:not(:focus) {
+    background-color: var(--hover-color);
+    color: var(--background-color);
+  }
+}
+
+.primary_btn:active {
+  background-color: var(--active-color);
+  color: #FFF;
+  outline: none;
+}
+
+
