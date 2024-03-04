@@ -14,11 +14,12 @@
 @import "./ui-kit/card.css";
 
 @import "./components/header.css";
+@import "./components/hero.css";
 
 
 .container {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   height: 100%;
   padding-right: 15px;
   padding-left: 15px;
